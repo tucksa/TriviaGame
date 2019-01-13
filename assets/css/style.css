@@ -1,0 +1,54 @@
+.mybtn {
+    display:block;
+    height: 100px;
+    width:104%;
+    display: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 150%;
+    color:white;
+    background-color:#006400;
+}
+h2 {
+    text-align: center;
+    padding:7% 17%;
+    color: white;
+    font-family: 'Special Elite', cursive;
+}
+.timer {
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    margin-top:3%;
+}
+#areYouRight {
+    text-align: center;
+    line-height: 150%;
+    padding:3%;
+    font-size: 150%;
+    color: white;
+    font-family: 'Special Elite', cursive;
+}
+.finalscore{
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    font-family: 'Special Elite', cursive;
+}
+#startGame{
+    margin-left:47%;
+}
+.my-nav{
+    font-size: 250%;
+    text-align: center;
+    background-color:#006400;
+    color:white;
+    font-family: 'Special Elite', cursive;
+    padding: 2%;
+}
+body{
+    background-image: url("../images/quiz-background-9-300x200.jpg");
+}
+.info{
+    background-color:#006400;
+}

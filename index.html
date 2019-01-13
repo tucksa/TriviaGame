@@ -3,15 +3,37 @@
     <head>
         <title>Trivia Game</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type ="text/css" src="assets/css/style.css"/>
+        <link rel="stylesheet" type ="text/css" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">Try your hand at Trivia!</span>
-        </nav>
-        <div id="areYouRight"></div>
-        <div id="question"></div>
+        <nav class="my-nav">Let's Get Quizzical</nav>
+        <div class= "row">
+            <div class= "col-2"></div>
+            <div class= "col-8 info">
+                <div id="areYouRight">Can you find the answer in time?</div>
+                <div class="finalscore" id="correctcount"></div>
+                <div  class="finalscore" id="wrongcount"></div>
+                <button id="startGame">Play</button>
+                <div class="row">
+                    <div class= "timer col-12"></div>
+                </div> 
+            </div>
+            <div class= "col-2"></div> 
+        </div>      
+        <div class= "row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h2 id="question" class="row info"></h2>
+                <button id="optOne" class= "mybtn row" value= "1">A. </button>
+                <button id="optTwo" class= "mybtn row" value= "2">B. </button>
+                <button id="optThree" class= "mybtn row" value= "3">C. </button>
+                <button id="optFour" class= "mybtn row" value= "4">D. </button>
+                <div id="answer"></div>
+                
+            </div>
+            <div class="col-2"></div>
+        </div>
         <div id="answers"></div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src ="assets/javascript/app.js"></script>
