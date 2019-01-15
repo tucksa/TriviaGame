@@ -106,7 +106,7 @@ function newQuestion(){
         $("#optThree").append(quesPicked.opt3);
         $("#optFour").append(quesPicked.opt4);
         $("#answer").attr("value", quesPicked.ans);
-        questionArr.splice(quesPicked,1);
+        questionArr.splice(q,1);
     
     
     }else{
