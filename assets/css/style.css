@@ -7,6 +7,10 @@
     font-size: 150%;
     color:white;
     background-color:#006400;
+    background-image: url('../images/chalk-rubbed-out-blackboard_34170-30.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 h2 {
     text-align: center;
@@ -37,18 +41,33 @@ h2 {
 }
 #startGame{
     margin-left:47%;
+    background-color: #006400;
+    color:white;
+    font-family: 'Special Elite', cursive;
+    border-radius: 1em;
+    padding: 1%
 }
 .my-nav{
     font-size: 250%;
     text-align: center;
     background-color:#006400;
+    background-image: url('../images/chalk-rubbed-out-blackboard_34170-30.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color:white;
     font-family: 'Special Elite', cursive;
     padding: 2%;
+    width: 68%;
+    margin: 0% 16%;
 }
 body{
     background-image: url("../images/quiz-background-9-300x200.jpg");
 }
 .info{
     background-color:#006400;
+    background-image: url('../images/chalk-rubbed-out-blackboard_34170-30.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
